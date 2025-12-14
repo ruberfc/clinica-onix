@@ -265,20 +265,21 @@ export const testimonials: Testimonial[] = [
 export const doctors: Doctor[] = [
   {
     id: "1",
-    name: "Dr. Nombre completo",
-    specialty: "Cirujano Plástico y Estético",
-    bio: "Especialista en rinoplastia con más de 15 años de experiencia",
-    credentials: "CMP: 45321 | Miembro de ASPE",
-    image: "./doctor-carlos-rodriguez-profile.jpg",
-  },
-  {
-    id: "2",
     name: "Dra. Nombre completo",
     specialty: "Cirujana Plástica",
     bio: "Experta en procedimientos no invasivos y rinoplastia refinada",
     credentials: "CMP: 45322 | Diplomada en Estética",
-    image: "./doctor-patricia-soto-profile.jpg",
+    image: "./teams/doctor01.webp",
   },
+  {
+    id: "2",
+    name: "Dr. Nombre completo",
+    specialty: "Cirujano Plástico y Estético",
+    bio: "Especialista en rinoplastia con más de 15 años de experiencia",
+    credentials: "CMP: 45321 | Miembro de ASPE",
+    image: "./teams/doctor02.webp",
+  }
+
 ]
 
 export const beforeAfterGallery: BeforeAfter[] = [
@@ -427,22 +428,22 @@ export const procedures: Procedure[] = [
 export const sliderImages = [
   {
     id: "1",
-    src: "/slider/before-after-rhinoplasty-1.jpg",
+    src: "./slider/before-after-rhinoplasty-1.jpg",
     alt: "Caso de rinoplastia 1",
   },
   {
     id: "2",
-    src: "/slider/before-after-rhinoplasty-2.jpg",
+    src: "./slider/before-after-rhinoplasty-2.jpg",
     alt: "Caso de rinoplastia 2",
   },
   {
     id: "3",
-    src: "/slider/before-after-rhinoplasty-3.jpg",
+    src: "./slider/before-after-rhinoplasty-3.jpg",
     alt: "Caso de rinoplastia 3",
   },
   {
     id: "4",
-    src: "/slider/before-after-rhinoplasty-4.jpg",
+    src: "./slider/before-after-rhinoplasty-4.jpg",
     alt: "Caso de rinoplastia 4",
   },
 ]
@@ -624,32 +625,32 @@ export const successCases: SuccessCase[] = [
     title: "Refinamiento de Punta Nasal",
     description: "Caso de refinamiento de punta nasal con resultados naturales",
     category: "Rinoplastia Estética",
-    before: "/before-rhinoplasty-narrow-nose-profile.jpg",
-    after: "/after-rhinoplasty-refined-narrow-nose-profile.jpg",
+    before: "./before-rhinoplasty-narrow-nose-profile.jpg",
+    after: "./after-rhinoplasty-refined-narrow-nose-profile.jpg",
   },
   {
     id: "2",
     title: "Corrección de Desviación",
     description: "Corrección funcional y estética de desviación septal",
     category: "Rinoseptoplastia",
-    before: "/before-rhinoplasty-deviated-nose.jpg",
-    after: "/after-rhinoplasty-corrected-nose.jpg",
+    before: "./before-rhinoplasty-deviated-nose.jpg",
+    after: "./after-rhinoplasty-corrected-nose.jpg",
   },
   {
     id: "3",
     title: "Reducción de Dorso",
     description: "Reducción del dorso nasal prominente con armonía facial",
     category: "Rinoplastia Reductiva",
-    before: "/before-rhinoplasty-prominent-dorsum.jpg",
-    after: "/after-rhinoplasty-reduced-dorsum.jpg",
+    before: "./before-rhinoplasty-prominent-dorsum.jpg",
+    after: "./after-rhinoplasty-reduced-dorsum.jpg",
   },
   {
     id: "4",
     title: "Aumento de Punta",
     description: "Aumento y proyección de punta nasal con rotación",
     category: "Rinoplastia Aumentativa",
-    before: "/before-rhinoplasty-drooping-tip-nose.jpg",
-    after: "/after-rhinoplasty-elevated-nose-tip.jpg",
+    before: "./before-rhinoplasty-drooping-tip-nose.jpg",
+    after: "./after-rhinoplasty-elevated-nose-tip.jpg",
   },
 ]
 
