@@ -65,12 +65,20 @@ export interface SuccessCase {
   after: string
 }
 
+export interface Photo {
+  id: number | string;
+  ImgSrc: string; // URL o path de la imagen
+  alt: string;       // Texto alternativo
+  description: string; // Mensaje que irá en el modal
+}
+
 export interface SocialLink {
   name: string;
   href: string;
   Icon: IconType; 
   ariaLabel: string;
 }
+
 
 export const socialLinks: SocialLink[] = [
   {
@@ -92,6 +100,52 @@ export const socialLinks: SocialLink[] = [
     ariaLabel: "TikTok",
   },
 ];
+
+export const Gallery: Photo[] = [
+  {
+    id: 1,
+    ImgSrc: './galeria/img1.webp',
+    alt: 'Odontóloga posando con un modelo dental',
+    description: 'Diagnóstico y planificación integral utilizando modelos 3D y tecnología de punta para garantizar la precisión en cada tratamiento.'
+  },
+  // {
+  //   id: 2,
+  //   ImgSrc: './galeria/img2.webp',
+  //   alt: 'Odontóloga con uniforme de trabajo de pie',
+  //   description: 'Nuestro equipo profesional está listo para brindarte la mejor atención con los más altos estándares de comodidad y seguridad.'
+  // },
+  {
+    id: 3,
+    ImgSrc: './galeria/img3.webp',
+    alt: 'Odontóloga sosteniendo una jeringa',
+    description: 'Especializados en procedimientos indoloros y seguros, priorizando siempre la comodidad del paciente durante todo el proceso.'
+  },
+  {
+    id: 4,
+    ImgSrc: './galeria/img4.webp',
+    alt: 'Odontóloga mostrando el resultado de un blanqueamiento',
+    description: 'Resultados inmediatos y visibles en blanqueamiento dental. Logra la sonrisa brillante que siempre deseaste en una sola sesión.'
+  },
+  {
+    id: 5,
+    ImgSrc: './galeria/img5.webp',
+    alt: 'Odontóloga revisando el diagnóstico con guantes celestes',
+    description: 'Atención detallada y personalizada en cada etapa del tratamiento, asegurando que se cumplan todas las expectativas estéticas y funcionales.'
+  },
+  {
+    id: 6,
+    ImgSrc: './galeria/img6.webp',
+    alt: 'Odontóloga revisando una tableta de procedimientos',
+    description: 'Utilización de tecnología digital para el registro de datos y planificación, garantizando tratamientos más rápidos y precisos.'
+  },
+  {
+    id: 7,
+    ImgSrc: './galeria/img7.webp',
+    alt: 'Odontóloga sentada con estetoscopio',
+    description: 'Enfoque integral en la salud oral. Nos preocupamos no solo por tus dientes, sino por tu bienestar general.'
+  },
+];
+
 
 export const services: Service[] = [
   {
