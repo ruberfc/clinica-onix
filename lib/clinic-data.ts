@@ -215,7 +215,7 @@ export const doctors: Doctor[] = [
     specialty: "Cirujano Plástico y Estético",
     bio: "Especialista en rinoplastia con más de 15 años de experiencia",
     credentials: "CMP: 45321 | Miembro de ASPE",
-    image: "/doctor-carlos-rodriguez-profile.jpg",
+    image: "./doctor-carlos-rodriguez-profile.jpg",
   },
   {
     id: "2",
@@ -223,7 +223,7 @@ export const doctors: Doctor[] = [
     specialty: "Cirujana Plástica",
     bio: "Experta en procedimientos no invasivos y rinoplastia refinada",
     credentials: "CMP: 45322 | Diplomada en Estética",
-    image: "/doctor-patricia-soto-profile.jpg",
+    image: "./doctor-patricia-soto-profile.jpg",
   },
 ]
 
@@ -233,16 +233,16 @@ export const beforeAfterGallery: BeforeAfter[] = [
     title: "Rinoplastia Correctiva",
     description: "Corrección de nariz desviada con resultados armoniosos",
     category: "Correctiva",
-    before: "/before-after-corrective-1-before.jpg",
-    after: "/before-after-corrective-1-after.jpg",
+    before: "./before-after-corrective-1-before.jpg",
+    after: "./before-after-corrective-1-after.jpg",
   },
   {
     id: "2",
     title: "Refinamiento Nasal",
     description: "Reducción de punta y refinamiento de dorso",
     category: "Estética",
-    before: "/before-after-aesthetic-1-before.jpg",
-    after: "/before-after-aesthetic-1-after.jpg",
+    before: "./before-after-aesthetic-1-before.jpg",
+    after: "./before-after-aesthetic-1-after.jpg",
   },
 ]
 

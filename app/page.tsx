@@ -30,7 +30,7 @@ export default function Home() {
   if (!mounted) return null
 
   return (
-    <div className={isDark ? "dark" : ""}>
+    <div className={isDark ? "dark" : "light"}>
       <Header isDark={isDark} setIsDark={setIsDark} />
       <main>
         <HeroSlider />
